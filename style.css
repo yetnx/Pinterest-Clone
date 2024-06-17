@@ -4,9 +4,21 @@
 
 * {
   font-family: Jost;
-  scroll-behavior: smooth;
 }
 
 body::-webkit-scrollbar {
   display: none;
+}
+
+html {
+  scroll-snap-type: y mandatory;
+}
+
+div {
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
