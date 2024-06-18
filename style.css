@@ -12,13 +12,13 @@ body::-webkit-scrollbar {
 
 html {
   scroll-snap-type: y mandatory;
+  overflow-y: scroll;
 }
 
 #div {
-  scroll-snap-align: start;
+  scroll-snap-align: center;
   scroll-snap-stop: always;
   
   display: flex;
   align-items: center;
-  justify-content: center;
 }
