@@ -16,6 +16,9 @@ export default {
         '75vh': '75vh',
         '90vh': '90vh',
       },
+      colors: {
+        customColor: '#c31952',
+      },
     },
   },
   plugins: [],
