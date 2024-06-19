@@ -17,7 +17,7 @@ export default {
         '90vh': '90vh',
       },
       colors: {
-        customColor: '#c31952',
+        Custom1: '#c31952',
       },
     },
   },
