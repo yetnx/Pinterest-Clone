@@ -28,6 +28,8 @@ export default {
       },
       colors: {
         Custom1: '#c31952',
+        Custom2: '#006B6C',
+        Background: '#DAFFF6',
       },
       height: {
         '128': '32rem', // Add custom height
