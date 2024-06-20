@@ -26,13 +26,20 @@ export default {
         '75vh': '75vh',
         '90vh': '90vh',
       },
+      maxWidth: {
+        '50vh': '50vh',
+        '75vh': '75vh',
+        '90vh': '90vh',
+      },
       colors: {
         Custom1: '#c31952',
         Custom2: '#006B6C',
         Background: '#DAFFF6',
+        Background1: '#FFE2EB',
+        Custom3: '#C32F00',
       },
       height: {
-        '128': '32rem', // Add custom height
+        '128': '32rem',
         '144': '36rem',
         '160': '40rem',
         '176': '44rem',
